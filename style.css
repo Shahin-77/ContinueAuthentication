@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+}
+
+.bar {
+    width: 300px;
+    height: 20px;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+#riskBar {
+    height: 100%;
+    width: 0%;
+    background: green;
+}
+
+#deleteBtn {
+    margin-top: 20px;
+}
