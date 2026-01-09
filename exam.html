@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Online Exam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-slate-900 text-white flex items-center justify-center">
+
+  <div class="w-full max-w-3xl bg-slate-800 rounded-2xl shadow-xl p-8">
+
+    <div class="flex justify-between items-center mb-6">
+      <h2 class="text-2xl font-bold">Online Examination</h2>
+      <span id="timer" class="px-4 py-2 rounded-lg bg-red-500 text-black font-semibold">
+        10:00
+      </span>
+    </div>
+
+    <!-- 🔥 THIS IS VERY IMPORTANT -->
+    <div id="questions" class="space-y-6">
+      <!-- Questions will come here -->
+    </div>
+
+    <button
+      onclick="submitExam()"
+      class="mt-8 w-full py-3 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-xl transition"
+    >
+      Submit Exam
+    </button>
+
+  </div>
+
+  <!-- 🔥 JS MUST BE AT END -->
+  <script src="assets/js/exam.js"></script>
+</body>
+</html>
